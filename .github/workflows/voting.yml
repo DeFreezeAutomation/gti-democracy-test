@@ -1,4 +1,4 @@
-oname: 'Voting'
+name: 'Voting'
 on:
   pull_request_target:
 
@@ -9,6 +9,3 @@ jobs:
       - uses: actions/checkout@v2
       - name: Evaluate vote
         uses: myyk/git-democracy@v1
-
-with:
-  configPath: .github/workflows/voting
